@@ -7,28 +7,42 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table class="outer">
-		<tbody>
-			<tr>
-				<br>
-				<br>
-				<br>
-				<tr>
-					<th>Nested Table 2</th>
+    <table class="table">
+		<tr class="item">
+				<thead>
+					<th colspan="2">Nested Table 2</th>
 					<tr>
-						<th>Column 1</th>
-						<th>Coumn 2</tdh</tr>
+						<th>
+							column 1
+						</th>
+						<th>
+							column 2
+						</th>
+						
+					<th>Nested Table 1</th>
 					</tr>
-					<tr>
-						<td>abc</td>
-						<td>def</td>
-					</tr>
-			   </tr>
-			</tr>
-			
-		</tbody>
-		
-      <!-- Your code here -->
-    </table>
+				</thead>
+				<tbody>
+						<td> abc </td>
+						<td> def </td>
+					<td>
+						<li>List item</li>
+						<li>List item</li>
+						<li>List item</li>
+					</td>
+				</tbody>
+		</tr>
+		<tr class="item">
+				<thead>
+					<th colspan="2">Nested Table 3</th>
+					<th>Nested Table 4</th>
+				</thead>
+				<tbody>
+					<td><a href="#">Nested Table</a></td>
+					<td> Demo Continued</td>
+					<td>HTML</td>
+				</tbody>
+		</tr>
+	</table>
   </body>
 </html>

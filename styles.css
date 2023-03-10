@@ -1,2 +1,8 @@
 
 /* Your CSS Code here. */
+th,td,table,thead,tbody{
+	border:2px solid black;
+}
+ul{
+	display:inline;
+}
