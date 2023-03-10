@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
-th,td,table,thead,tbody{
+td,th{
 	border:2px solid black;
 }
 ul{
