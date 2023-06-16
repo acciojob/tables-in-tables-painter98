@@ -1,8 +1,16 @@
 
 /* Your CSS Code here. */
-td,th{
-	border:2px solid black;
+td,th,tr{
+	border:1px solid black;
+	width:20vw;
 }
 ul{
 	display:inline;
+}
+table{
+	border:1px solid black;
+	text-align:center;
+}
+.item{
+	height:fit-content;
 }
