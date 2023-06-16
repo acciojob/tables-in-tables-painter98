@@ -2,7 +2,6 @@
 /* Your CSS Code here. */
 td,th,tr{
 	border:1px solid black;
-	width:20vw;
 }
 ul{
 	display:inline;
@@ -11,6 +10,7 @@ table{
 	border:1px solid black;
 	text-align:center;
 }
-.item{
+.item td{
+	width:20vw;
 	height:fit-content;
 }
