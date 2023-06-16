@@ -10,7 +10,10 @@ table{
 	border:1px solid black;
 	text-align:center;
 }
-.item td{
-	width:20vw;
-	height:fit-content;
+.table{
+	width:50vw;
+}
+.html{
+	background-color:rgb(0, 0, 0);
+	color:white;
 }
